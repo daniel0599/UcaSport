@@ -10,7 +10,7 @@ namespace UcaSport.Models
     public class Image
     {
         public int ImageId { get; set; }
-        [StringLength(255)]
+        [StringLength(300)]
         public string ImageName { get; set; }
         public FileType fyletype {get; set;}
         public int ProductId { get; set;}
